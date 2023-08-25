@@ -1,0 +1,22 @@
+/*---------- header style ----------*/
+header {position:fixed; top:0; z-index:50000; width:100%; background:#fff; border-bottom:1px solid #ddd;}
+header nav {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+header nav>h1>a>img {width: 160px;}
+
+
+
+@media (min-width: 320px) and (max-width:1280.9px) { 
+    header nav {height: 80px;width: 100%;text-align: center;display: table;}
+    header nav>h1 {display: table-cell;vertical-align: middle;}
+}
+
+@media (max-width: 1023.9px) {
+    header nav {height: 60px;}
+    header nav>h1>a>img {width: 100px;}
+}

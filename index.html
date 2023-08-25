@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에브리클릭</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link href="css/aos.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/swiper.js"></script> 
+    <script type="text/javascript">
+        $(function () {
+            var mySwiper = new Swiper ('.brand', {
+                spaceBetween: 5,
+                autoplay : 1000,
+                slidesPerView : 'auto',
+                loop: true,
+                loopedSlides: 7,
+                effect: 'slide',  
+                centeredSlides : true,
+                initialSlide: 0,
+                loopAdditionalSlides: 1,
+                observer: true,	
+                observeParents: true	
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <!-- scroll btn -->
+    <div id="scroll_btn">
+      <ul>
+        <li class="scb1">
+
+        </li>
+        <li class="scb2">
+
+        </li>
+        <li class="scb3">
+
+        </li>
+        <li class="scb4">
+
+        </li>
+        <li class="scb5">
+
+        </li>
+      </ul>
+    </div>
+    <header>
+        <nav>
+            <h1><a href="index.html"><img src="img/logo.png" alt="logo" title="logo"></a></h1>
+        </nav>
+    </header>
+    <section>
+         <!-- 첫번째 섹션 -->
+        <div class="section01" id="section01">
+            <div class="innerBox">
+                <div class="text">
+                    <h1>
+                        <span class="textCo">에</span>브리 <br>
+                        <span class="textCo">클</span>릭
+                    </h1>
+                    <p>디지털 생활 관리 <br> 리워드앱</p>
+                    <div class="textImg">
+                        <div>
+                            <img src="img/gapp.png" alt="gapp">
+                            <p>앱 바로가기</p>
+                        </div>
+                        <div>
+                            <img src="img/gplay.png" alt="googleplay">
+                            <p>다운로드하기</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <div data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true" class="bg_img"></div>
+                    <div class="s_object">
+                        <div data-aos="fade-down" data-aos-duration="1500" data-aos-delay="500"  data-aos-once="true" class="object_img">
+                            <img src="img/mainImg01_1.png" alt="mainImg" class="mainimg" a11y>
+                        </div>
+                    </div>
+                </div>
+                <div class="textImg textImgMo">
+                    <div>
+                        <img src="img/gapp.png" alt="gapp">
+                        <p>앱 바로가기</p>
+                    </div>
+                    <div>
+                        <img src="img/gplay.png" alt="googleplay">
+                        <p>다운로드하기</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- 두번째 섹션 -->
+        <div class="section02" id="section02">
+            <div class="img">
+                <div>
+                    <img src="img/mainImg02_1.png" alt="mainImg" class="mainimg">
+                    <div class="imgWrap">
+                        <div class="second circle">
+                            <p>2:30</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="innerBox">
+                <div class="text">
+                    <h1>
+                        내가 오늘 <br>
+                        <span class="textCo">사용한 시간</span>
+                    </h1>
+                    <p>
+                        앱 별로 확인하며 <br>
+                        <span class="bold">나의 생활 관리 Check</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 세번째 섹션 -->
+        <div class="section03" id="section03">
+            <div class="innerBox">
+                <div class="text">
+                    <h1>
+                        <img src="img/mainImg03po.png" alt="point"><span class="textCo">클릭</span>만 하면 <br>
+                        캐시 적립
+                    </h1>
+                    <p>
+                        앱 사용 시간만큼 <br> 적립되는 캐시 <br>
+                        <span>기억하세요 <br><span class="bold">Click</span> 해야 적립이 완료돼요!</span>
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="imgMo"></div> -->
+            <div class="img">
+                <div class="imgWrap">
+                    <img src="img/mainImg03.png" alt="mainImg" class="mainimg">
+                    <img src="img/money.png" alt="money" class="money money01">
+                    <img src="img/money.png" alt="money" class="money money02">
+                    <img src="img/money.png" alt="money" class="money money03">
+                    <img src="img/money.png" alt="money" class="money money04">
+                    <img src="img/money.png" alt="money" class="money money05">
+                    <p>50<p class="zero">0</p></p>
+                    <p class="count count00">0</p>
+                    <p class="count count01">1</p>
+                    <p class="count count02">2</p>
+                    <p class="count count03">3</p>
+                    <img data-splitting src="img/snsIcon.png" alt="snsIcon" class="snsIcon" id="hey">
+                    <img src="img/mainImg03hand.png" alt="hand" class="hand">
+                </div>
+            </div>
+        </div>
+        <!-- 네번째 섹션 -->
+        <div class="section04" id="section04">
+            <div class="innerBox">
+                <div>
+                    <div class="text">
+                        <h1> 모바일 쿠폰 상점 </h1>
+                        <p>
+                            슬기로운 디지털 생활 습관으로 얻는 보너스
+                        </p>
+                    </div>
+                    <div class="img">
+                        <img src="img/mainImg04.png" alt="mainImg" class="mainimg">
+                            <div class="brand">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <img src="img/app_img01.png" alt="brand01" class="brand01">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="img/app_img02.png" alt="brand01" class="brand02">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="img/app_img03.png" alt="brand01" class="brand03">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="img/app_img04.png" alt="brand01" class="brand04">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="img/app_img05.png" alt="brand01" class="brand05">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="img/app_img06.png" alt="brand01" class="brand06">
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="img/app_img07.png" alt="brand01" class="brand07">
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 다섯번째 섹션 -->
+        <div class="section05" id="section05">
+            <div class="innerBox">
+                <div class="textBox">
+                    <div class="text">
+                        <h1>
+                            <p>슬기로운 스마트폰 생활</p>
+                            <p><span class="textCo">에브리클릭</span>과 함께</p>
+                        </h1>
+                        <img src="img/mainImg05go_1.png" alt="googleplay">
+                    </div>
+                    <div class="footer nomob">
+                        <div class="leftBox">
+                            <a href="index.html"><img src="img/logo.png" alt="logo" title="logo"></a>
+                            <p>주소 : 서울특별시 강남구 논현로 <span class="roboto">151</span>길 <span class="roboto">41</span>, <span class="roboto">3</span>층 <span class="roboto">3880</span>호</p>
+                            <p>주식회사 자몽랩<span class="sm_tt">|</span>대표이사 : 조준형<span class="sm_tt">|</span>사업자등록번호 : <span class="roboto">267-81-03235</span></p>
+                            <p class="roboto">Copyright (c) 2023 by EveryClick, Inc. All Rights Reserved.</p>
+                        </div>
+                        <div class="rightBox">
+                            <div>
+                                <img src="img/footerIC_insta.png" alt="footerIcon">
+                                <img src="img/footerIC_kaka.png" alt="footerIcon">
+                            </div>
+                            <div>
+                                <p>이용약관</p>
+                                <p>개인정보처리방침</p>
+                                <a href="mailto:support@jamonglab.com">광고제휴문의</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/mainImg05.png" alt="mainImg05" class="mainImg">
+            </div>
+            <div class="footer mob">
+                <div class="leftBox">
+                    <a href="index.html"><img src="img/logo.png" alt="logo" title="logo"></a>
+                    <p>주소 : 서울특별시 강남구 논현로 <span class="roboto">151</span>길 <span class="roboto">41</span>, <span class="roboto">3</span>층 <span class="roboto">3880</span>호</p>
+                    <p>주식회사 자몽랩 <span class="sm_tt">|</span>대표이사 : 조준형<span class="sm_tt">|</span>사업자등록번호 : <span class="roboto">267-81-03235</span></p>
+                    <p class="roboto">Copyright (c) 2023 by EveryClick, Inc. All Rights Reserved.</p>
+                </div>
+                <div class="rightBox">
+                    <div>
+                        <img src="img/footerIC_insta.png" alt="footerIcon">
+                        <img src="img/footerIC_kaka.png" alt="footerIcon">
+                    </div>
+                    <div>
+                        <p>이용약관</p>
+                        <p>개인정보처리방침</p>
+                        <a href="mailto:support@jamonglab.com">광고제휴문의</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+
+    <script type="text/javascript" src="js/scroll.js"></script> 
+    <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
+    <script src="js/aos.js" type="text/javascript"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

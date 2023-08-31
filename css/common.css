@@ -132,17 +132,10 @@ img{vertical-align:top;font-size:0;border:0;}
 
 
 
-/*---------- 공통 컴포넌트 ----------*/
-.innerBox {height: 980px;}
-
 /* roboto 적용 */
 .roboto {font-family: 'roboto', sans-serif;}
 
 
 
-
-/* @media (min-width: 1024px) and (max-width:1280.9px) {
-    .innerBox {height: 668px;}
-} */
 
 

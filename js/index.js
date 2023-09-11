@@ -574,6 +574,10 @@ $(document).ready(function() {
                 $('.section03>div.img>div.imgWrap>p.zero').addClass('display');
                 $('.section03>div.img>div.imgWrap>img.snsIcon').addClass('effect');
                 $('.section03>div.img>div.imgWrap>img.money').addClass('effect');
+<<<<<<< HEAD
+=======
+              
+>>>>>>> ee2a0869cdcc378b194c68145ac504e3cf12d3dd
               } else {
                 $('.section03>div.img>div.imgWrap>img.hand').removeClass('effect');
                 $('.section03>div.img>div.imgWrap>p.count').removeClass('effect');

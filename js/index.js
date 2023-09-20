@@ -590,8 +590,23 @@ $(document).ready(function() {
      // 브라우저 resize 처리
     window.addEventListener("resize", function() {
       $(window).scrollTop(0);
-
     })
+
+
+      
+    $("#dateSelect").on("click", function(){
+      let date = $(this).val();
+      console.log(date);
+      $(".privacy_text_box>div>div").stop().fadeOut('fast');
+      $("#" + date).stop().fadeIn('fast');
+  
+  
+    });
+
+
+
+
+
 
 
 })

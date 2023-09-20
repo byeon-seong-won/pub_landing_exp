@@ -1,6 +1,6 @@
 @import url(common.css);
 @import url(header.css);
-
+@import url(sub.css);
 
 
 /*---------- mainpage style ----------*/
@@ -91,7 +91,8 @@ body {
 }
 .section01>div.innerBox>div.text>p {font-size: 43px;letter-spacing: -0.025em;margin-top: 40px;color: #666666;line-height: 50px;text-align: left;}
 .section01>div.innerBox>div.text>div.textImg {margin-top: 45px;transform: translateX(-20px);display: flex;}
-.section01>div.innerBox>div.text>div.textImg>div {cursor: pointer;text-align: center;}
+.section01>div.innerBox>div.text>div.textImg>div {text-align: center;}
+.section01>div.innerBox>div.text>div.textImg>div:nth-child(2)>img {cursor: pointer;}
 .section01>div.innerBox>div.text>div.textImg>div>img {width: 220px;}
 .section01>div.innerBox>div.text>div.textImg>div>p {margin-top: -10px;color: #666666;font-size: 24px;letter-spacing: -0.025em;}
 .section01>div.innerBox>div.img {position: relative;flex: 1.5;}
@@ -445,8 +446,9 @@ body {
 .section05>div.innerBox>div.textBox>div.text>h1 .textCo {color: #2eceb6;}
 .section05>div.innerBox>div.textBox>div.text>img{margin-top: 60px;transform: translateX(-20px);}
 .section05>div.innerBox>div.textBox>div.text>div.textImg {display: flex;transform: translateX(-56px);margin-top: 30px;text-align: center;}
-.section05>div.innerBox>div.textBox>div.text>div.textImg>div {cursor: pointer;}
-.section05>div.innerBox>div.textBox>div.text>div.textImg>div:nth-child(2) {transform: translateX(-81px)}
+
+.section05>div.innerBox>div.textBox>div.text>div.textImg>div:nth-child(2) {transform: translateX(-81px);}
+.section05>div.innerBox>div.textBox>div.text>div.textImg>div:nth-child(2)>img {cursor: pointer;}
 .section05>div.innerBox>div.textBox>div.text>div.textImg>div>p {color: #333;}
 .section05>div.innerBox>div.textBox>div.text>div.textImg>div>img {width: 60%;}
 
@@ -730,8 +732,8 @@ body {
   .tabletWrap>div.section05>div.innerBox>div.textBox>div.text>img {margin-top: 10px;}
 
   .section05>div.innerBox>div.textBox>div.text>div.textImg {align-items: end;display: flex;transform: translateX(-126px);margin-top: 10px;text-align: center;}
-  .section05>div.innerBox>div.textBox>div.text>div.textImg>div {cursor: pointer;}
   .section05>div.innerBox>div.textBox>div.text>div.textImg>div:nth-child(2) {transform: translateX(-157px)}
+  .section05>div.innerBox>div.textBox>div.text>div.textImg>div:nth-child(2)>img {cursor: pointer;}
   .section05>div.innerBox>div.textBox>div.text>div.textImg>div>p {color: #333;font-size: 13px;display: none;}
   .section05>div.innerBox>div.textBox>div.text>div.textImg>div>img {width: 25%;}
 
@@ -804,7 +806,8 @@ body {
    .mobileWrap>div.section01>div.innerBox>div.img>div.s_object .mainimg {max-width: 460px;width: 340px;}
    .mobileWrap>div.section01>div.innerBox>div.textImgMo {display: flex;margin: 60px auto 0;justify-content: space-between;width: 200px;}
    .mobileWrap>div.section01>div.innerBox>div.textImgMo>div {text-align: center;}
-   .mobileWrap>div.section01>div.innerBox>div.textImgMo>div>img {width: 80px;cursor: pointer;}
+   .mobileWrap>div.section01>div.innerBox>div.textImgMo>div:nth-child(2)>img {cursor: pointer;}
+   .mobileWrap>div.section01>div.innerBox>div.textImgMo>div>img {width: 80px;}
    .mobileWrap>div.section01>div.innerBox>div.textImgMo>div>p {font-size: 16px;margin-top: 5px;color: #444;}
 
 
@@ -976,8 +979,7 @@ body {
 /* <------------------- 모바일1-2 (600px ~ 479px) -------------------> */
 @media (min-width:320px) and (max-width: 1023.9px) { 
    .section05>div.innerBox>div.textBox>div.text>div.textImg {transform: translateX(0);margin-top: 20px;}
-   .section05>div.innerBox>div.textBox>div.text>div.textImg>div {cursor: pointer;}
-   .section05>div.innerBox>div.textBox>div.text>div.textImg>div:nth-child(2) {transform: translateX(0);margin-left: 10px;}
+   .section05>div.innerBox>div.textBox>div.text>div.textImg>div:nth-child(2) {transform: translateX(0);margin-left: 10px;cursor: pointer;}
    .section05>div.innerBox>div.textBox>div.text>div.textImg>div>p {color: #fff;font-size: 10px;}
    .section05>div.innerBox>div.textBox>div.text>div.textImg>div>img {width: 50px;}
 

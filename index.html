@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>에브리클릭 - 디지털 생활 관리 리워드 앱</title>
 
     <!-- SEO최적화 -->
@@ -32,6 +33,11 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: Dark)').matches
+        console.log(prefersDark);
+    </script>
+    
     <script type="text/javascript">
 
 
@@ -69,9 +75,11 @@
                         }
 
                         if(this.activeIndex === 0) {
-                            $("header").css({"border":"none"})
+                            $("header").css({"border":"none"});
+                            $("header").removeClass("dark")
                         } else {
-                            $("header").css({"border-bottom":"1px solid #ddd"})
+                            $("header").css({"border-bottom":"1px solid #ddd"});
+                            $("header").addClass("dark")
                         }
 
                         // progress 애니메이션
@@ -83,7 +91,8 @@
                             size:200,
                             fill:{
                               gradient:["#14bab8","#32d2b5","#32d2b5","#14bab8"],
-                              gradientAngle: Math.PI / 2
+                              gradientAngle: Math.PI / 2,
+                           
                             },
                             animation:{
                               duration:2200,
@@ -144,7 +153,7 @@
     <div class="swiper-container pcwrap">
         <div class="swiper-wrapper">
             <!-- 첫번째 섹션 -->
-            <div class="swiper-slide section01" id="section01">
+            <div class="swiper-slide section section01" id="section01">
                 <div class="innerBox">
                     <div class="text">
                         <h1>
@@ -184,7 +193,7 @@
                 </div>
             </div>
             <!-- 두번째 섹션 -->
-            <div class="swiper-slide section02" id="section02">
+            <div class="swiper-slide section section02" id="section02">
                 <div class="img">
                     <div>
                         <img src="img/mainImg02_1.png" alt="mainImg" class="mainimg">
@@ -209,7 +218,7 @@
                 </div>
             </div>
             <!-- 세번째 섹션 -->
-            <div class="swiper-slide section03" id="section03">
+            <div class="swiper-slide section section03" id="section03">
                 <div class="innerBox">
                     <div class="text">
                         <h1>
@@ -241,7 +250,7 @@
                 </div>
             </div>
             <!-- 네번째 섹션 -->
-            <div class="swiper-slide section04" id="section04">
+            <div class="swiper-slide section section04" id="section04">
                 <div class="innerBox">
                     <div>
                         <div class="text">
@@ -282,7 +291,7 @@
                 </div>
             </div>
             <!-- 다섯번째 섹션 -->
-            <div class="swiper-slide section05" id="section05">
+            <div class="swiper-slide section section05" id="section05">
                 <div class="innerBox">
                     <div class="textBox">
                         <div class="text">
@@ -321,7 +330,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="img/mainImg05.png" alt="mainImg05" class="mainImg">
+                    <img src="img/mainImg05_fi.png" alt="mainImg05" class="mainImg">
                 </div>
             </div>
         </div>
@@ -509,7 +518,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="img/mainImg05_01.png" alt="mainImg05" class="mainImg">
+                <img src="img/mainImg05_fi.png" alt="mainImg05" class="mainImg">
             </div>
         </div>
     </div>
